@@ -21,7 +21,7 @@ function setup() {
 }
 
 function draw() {
-  capture.speed(map(capture.time(), 0, capture.duration()/3, 0.2,0.7));
+  capture.speed(map(capture.time(), 0, capture.duration()/3, 0.5,0.7));
   image(capture, 0, 0);
 
 }
